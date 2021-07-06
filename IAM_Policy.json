@@ -9,7 +9,7 @@
                 "s3:ListBucket",
                 "s3:ListMultipartUploadParts"
             ],
-            "Resource": "arn:aws:s3:::s3policytest12"
+            "Resource": "arn:aws:s3:::my-mission-data-bucket"
         },
         {
             "Sid": "VisualEditor1",
@@ -19,7 +19,7 @@
                 "s3:GetObject",
                 "s3:DeleteObject"
             ],
-            "Resource": "arn:aws:s3:::s3policytest12/mission1/*"
+            "Resource": "arn:aws:s3:::my-mission-data-bucket/mission1/*"
         }
     ]
 }
