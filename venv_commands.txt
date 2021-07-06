@@ -1,0 +1,7 @@
+# virtual env commands
+
+python3 -m venv my_app/env
+
+source ~/my_app/env/bin/activate
+
+pip3 install boto3
