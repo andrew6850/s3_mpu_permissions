@@ -13,10 +13,10 @@ config = TransferConfig(multipart_threshold=1024 * 25,
 # for bucket in s3_resource.buckets.all():
 #    print(bucket.name)
 
-# s3_resource.Object('s3policytest12', '4GBfile').\
+# s3_resource.Object('my-mission-data-bucket', '4GBfile').\
 #    upload_file(Filename='4GBfile')
 
-bucket_name = 's3policytest12'
+bucket_name = 'my-mission-data-bucket'
 
 def multipart_upload_boto3():
 
