@@ -1,10 +1,10 @@
 # Use AWS CLI to abort a multipart upload:
 # Note: Key value includes the prefix.
 
-aws s3api abort-multipart-upload --bucket s3policytest12 \
+aws s3api abort-multipart-upload --bucket my-mission-data-bucket \
 --key mission1/4GBfile --upload-id \
 "lWgs1YRjvks8vl0aIJfH_SNU7qUHWeVc_rLXiNhMfJyUUEVzzV2NXwgv7Bzd0FsjBCApgADeQ5.ZtbUMbW0035wa.56HVOWVgAci3mY5tR6F8aq72vm_YYrm8gq5rrcOHoqT_cFEd_qsk3SJfWj6oQ--"
 
 # Use AWS CLI to list multipart uploads:
 
-aws s3api list-multipart-uploads --bucket s3policytest12
+aws s3api list-multipart-uploads --bucket my-mission-data-bucket
